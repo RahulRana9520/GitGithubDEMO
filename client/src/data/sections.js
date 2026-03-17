@@ -1,0 +1,116 @@
+const sections = [
+	{
+		title: 'What is Git?',
+		icon: '🔹',
+		content: 'Git is a Version Control System. It tracks changes in your code, lets you go back to previous versions, and allows multiple people to work on the same project without breaking everything.',
+		code: 'Simple line: Git is like a time machine + collaboration tool for code',
+	},
+	{
+		title: 'What is GitHub?',
+		icon: '🔹',
+		content: 'GitHub is a cloud platform for Git repositories. It stores your code online, enables collaboration, and provides features like Pull Requests, issues, and more.',
+		code: 'Simple line: Git is the tool, GitHub is the platform',
+	},
+	{
+		title: 'Basic Workflow',
+		icon: '🔥',
+		content: 'Working Directory → Staging → Repository → GitHub',
+		steps: [
+			'Working directory: your files',
+			'Staging area: selected changes',
+			'Repository: saved version',
+			'GitHub: online storage',
+		],
+	},
+	{
+		title: 'Basic Commands (Live Demo)',
+		icon: '⚙️',
+		steps: [
+			'Setup Git (only once):',
+			'git config --global user.name "Your Name"',
+			'git config --global user.email "your@email.com"',
+			'Create Project:',
+			'mkdir demo-project',
+			'cd demo-project',
+			'git init',
+			'Add Files:',
+			'echo "Hello World" > index.txt',
+			'git add .',
+			'git commit -m "Initial commit"',
+			'Connect to GitHub:',
+			'git remote add origin <repo-link>',
+			'git branch -M main',
+			'git push -u origin main',
+			'Daily Commands:',
+			'git status',
+			'git add .',
+			'git commit -m "message"',
+			'git push',
+			'git pull',
+		],
+	},
+	{
+		title: 'Branching',
+		icon: '🌿',
+		steps: [
+			'Create branch: git branch feature1',
+			'Switch: git checkout feature1',
+			'OR: git checkout -b feature1',
+			'Switch back: git checkout main',
+		],
+	},
+	{
+		title: 'Collaboration Exercise',
+		icon: '🤝',
+		steps: [
+			'Leader: Create repo on GitHub, push initial project, add collaborators',
+			'Everyone: git clone <repo-link>, cd repo-name',
+			'Each: git checkout -b feature-xyz',
+			'Each: work on feature, git add ., git commit -m "Added feature"',
+			'Each: git push origin feature-xyz',
+			'Pull Request: Compare & Pull Request on GitHub, admin reviews and merges',
+			'After merge: git checkout main, git pull',
+		],
+	},
+	{
+		title: 'Conflict Practice',
+		icon: '⚠️',
+		steps: [
+			'Two people edit the same line in a file',
+			'When merging, conflict occurs',
+			'Git shows conflict markers (<<<<<<<, =======, >>>>>>>)',
+			'Manually fix, then: git add ., git commit -m "Resolved conflict"',
+		],
+	},
+	{
+		title: 'Rollback',
+		icon: '🔙',
+		steps: [
+			'See history: git log',
+			'Go back: git reset --hard <commit-id>',
+			'Safer way: git revert <commit-id>',
+		],
+	},
+	{
+		title: 'Pro Tips',
+		icon: '💡',
+		steps: [
+			'Always git pull before starting work',
+			'Never work directly on main',
+			'Use branches for everything',
+			'Small commits > big commits',
+			'Clear commit messages',
+		],
+	},
+	{
+		title: 'Mini Hackathon Simulation',
+		icon: '🎯',
+		steps: [
+			'Build a small project: index.html, style.css, script.js',
+			'Each person adds a feature using a branch',
+			'Raise PR, review, merge, handle conflicts, rollback once intentionally',
+		],
+	},
+];
+
+export default sections;
