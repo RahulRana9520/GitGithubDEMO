@@ -50,4 +50,7 @@ npm start
 ---
 Enjoy learning and collaborating with Git & GitHub!
 
-Edited by rishav 
+Edited by rishav
+Enjoyy learning and collaborating with Git & GitHub!
+
+i am durgesh vyas fromm uttarakhand
