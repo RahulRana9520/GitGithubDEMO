@@ -49,3 +49,5 @@ npm start
 
 ---
 Enjoy learning and collaborating with Git & GitHub!
+
+Edited by rishav 
