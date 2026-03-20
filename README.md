@@ -48,6 +48,9 @@ npm start
 - Style components in `client/src/components/` and CSS files.
 
 ---
+Enjoy learning and collaborating with Git & GitHub!
+
+Edited by rishav
 Enjoyy learning and collaborating with Git & GitHub!
 
 i am durgesh vyas fromm uttarakhand
