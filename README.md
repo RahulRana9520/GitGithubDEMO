@@ -1,6 +1,6 @@
 # Git & GitHub Learning Website
 
-A modern, interactive website to learn Git and GitHub, built with React (frontend) and Node.js/Express (backend).
+A modern interactive website to learn Git and GitHub, built with React (frontend) and Node.js/Express (backend).
 
 ## Features
 - What is Git & GitHub (clear, visual explanations)
