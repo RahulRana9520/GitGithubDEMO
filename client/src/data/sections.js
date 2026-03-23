@@ -46,6 +46,7 @@ const sections = [
 			'git add .',
 			'git commit -m "message"',
 			'git push',
+			'git push origin main --force   # use with extreme caution',
 			'git pull',
 		],
 	},
