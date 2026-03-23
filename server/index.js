@@ -20,6 +20,7 @@ app.post('/api/git-demo', (req, res) => {
     'git checkout -b feature1': `Switched to a new branch 'feature1'`,
     'git checkout main': `Switched to branch 'main'`,
     'git push': `Everything up-to-date`,
+    'git push origin main --force': `Force-pushed main to origin (history was rewritten). Use this carefully!`,
     'git pull': `Already up to date.`,
     'git remote add origin <repo-link>': ``,
     'git clone <repo-link>': `Cloning into 'repo-name'...\ndone.`,
